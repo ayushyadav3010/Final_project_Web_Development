@@ -12,7 +12,8 @@
 
 *{
     font-family: 'Poppins', sans-serif;
-    margin:0; padding:0;
+    margin:0;
+    padding:0;
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
@@ -602,32 +603,23 @@ section{
     height: 3rem;
     display: block;
 }
+.footer .credit{
+    text-align: center;
+    margin-top: 2rem;
+    padding:1rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color:var(--black);
+    border-top: var(--border);
+}
+
+.footer .credit span{
+    color:rgb(89, 185, 220);
+}
 
 
-footer{
-    width: 100%;
-    height: 40px;
-   
-}
-.ftr{
-    background-color: rgb(153, 221, 246);
-   text-align: center;
 
-}
-.ftr ul{
-    list-style: none;
-    display: inline-flex;
-}
-.ftr ul li{
-    width: 110px;
-    margin: 10px;
-    padding: 10px;
-    font-size: 18px;
-}
-.ftr ul li:hover{
-    background-color: rgb(89, 185, 220);
-    color: #fff;
-}
+
 
 @media (max-width:991px){
 
@@ -694,6 +686,4 @@ footer{
     .footer .box-container .box .payment-img{
         margin: 2rem auto;
     }
-    
-
 }
